@@ -1,0 +1,1 @@
+<p>你好,${user.userName},这里是sharehub!</p>

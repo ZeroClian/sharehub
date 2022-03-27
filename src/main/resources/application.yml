@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.106.120.147:3306/sharehub?useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  freemarker:
+    suffix: .ftl
+    settings:
+      classic_compatible: true
+  redis:
+    database: 0
+    port: 6379
+    password: root
+    host: localhost
+wechat:
+  jsAppId: wxcef89f73a11704a8
+  jsAppSecret: 94872aff51cdcc5356bebd393dfebe0d
+  token: 111111111
+server:
+  domain: http://css3ya.natappfree.cc
