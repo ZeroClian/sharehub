@@ -16,11 +16,11 @@ spring:
   redis:
     database: 0
     port: 6379
-    password: root
-    host: localhost
+    password:
+    host: 47.106.120.147
 wechat:
-  jsAppId: wxcef89f73a11704a8
-  jsAppSecret: 94872aff51cdcc5356bebd393dfebe0d
-  token: 111111111
+  jsAppId: wxe00253202c33f8a6
+  jsAppSecret: ba77561ceaa4ef3edb4ccdf787d93d70
+  token: 71895h1iuiyf89hio2yr98fhf3
 server:
-  domain: http://css3ya.natappfree.cc
+  domain: http://47.106.120.147:8080
